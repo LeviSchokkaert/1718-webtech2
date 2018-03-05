@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = 7326;
+        //naar 1 uur
+        let amountTime = number / 3600;
+        //naar beneden afronden
+        console.log('aantal uur' + amountTime);
+        //hoeveel seconden blijven er over?
+        let remainingSeconds = number % 3600;
+        console.log('Overgebleven seconden' + remainingSeconds);
+
+        let amountMinutes = Math.floor(remainingSeconds / 60);
+        console.log('Aantal minuten: ' + amountMinutes);
+
+        
+
+
+
+    </script>
+</body>
+</html>

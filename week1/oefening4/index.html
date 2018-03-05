@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = prompt("geef een getal in");
+        let text='het getal dat invoerde was:' + number +'<br>';
+
+        let lengthNumber= number.length;
+        // let text2="de lengte van het nummer is:" + lengthNumber;
+        //is een andere mogelijkheid
+        let text2=`Het getal is ${lengthNumber} karakter lang`;
+
+        console.log("dit is wat tekst");
+        console.log(number);
+        
+        document.write(text);
+        //document.write('<br>');
+        document.write(text2);
+    </script>
+</body>
+</html>
